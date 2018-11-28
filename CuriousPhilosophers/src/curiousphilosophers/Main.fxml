@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="680.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="curiousphilosophers.MainController">
+   <children>
+      <Pane layoutX="-6.0" layoutY="129.0" prefHeight="400.0" prefWidth="980.0" styleClass="pane" stylesheets="@stylesheet.css">
+         <children>
+            <Label layoutX="24.0" layoutY="21.0" text="Want to create an account?" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font></Label>
+            <Label layoutX="24.0" layoutY="64.0" minHeight="-Infinity" minWidth="-Infinity" prefWidth="250.0" text="Lorem ipsum is a placeholder text used to demonstrate the visual form of a document without relying on meaningful content." textFill="WHITE" wrapText="true" />
+            <JFXButton layoutX="24.0" layoutY="159.0" onAction="#open_signup" prefHeight="35.0" prefWidth="150.0" styleClass="trans-btn-white-border" text="Sign up">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="793.0" layoutY="322.0" onAction="#open_signin" prefHeight="35.0" prefWidth="150.0" styleClass="trans-btn-white-border" text="Sign in">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="698.0" layoutY="224.0" minHeight="-Infinity" minWidth="-Infinity" prefWidth="250.0" text="Lorem ipsum is a placeholder text used to demonstrate the visual form of a document without relying on meaningful content." textAlignment="RIGHT" textFill="WHITE" wrapText="true" />
+            <Label layoutX="677.0" layoutY="183.0" text="Already have an account?" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <VBox fx:id="vbox" layoutX="24.0" layoutY="-16.0" prefHeight="480.0" prefWidth="480.0" styleClass="parent" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
